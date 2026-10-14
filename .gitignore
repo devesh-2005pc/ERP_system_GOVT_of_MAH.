@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.spec.bak
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment and secrets (DO NOT COMMIT REAL CREDENTIALS)
+.env
+.env.*
+*.env
+backend/.env
+backend/.env.*
+!.env.example
+!backend/.env.example
+
+# Local databases & uploads
+*.db
+*.sqlite
+*.sqlite3
+data/
+backend/data/
+
+# Logs
+*.log
+logs/
+
+# Licenses and keys
+keys/
+license_token.json
+*.pem
+*.key
+
+# Node / Frontend
+node_modules/
+
+# OS / Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
